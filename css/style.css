@@ -1,0 +1,218 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+/*the navbar styling*/
+.navbar-default{
+    background-color: rgba(0,0,0,0.2);
+    border-color: none;
+    border-bottom: none;
+    
+    
+}
+.navbar-toggle .icon-bar{
+    height: 7px;
+    width: 33px;
+    border-radius: 0px;
+    color: black;
+}
+.navbar-nav{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 35px 100px 0px;
+}
+.navbar-toggle{
+    border: none;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #16a085;
+}
+.logo img{
+    margin: -10px 0 0 100px; 
+}
+/*media queries*/
+@media(max-width:760px){
+    .logo img{
+        margin: -15px 0 0 0px;
+    }
+    .navbar-nav{
+        margin: 0px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .navbar-toggle{
+        margin-top: 50px;
+    }
+    #design{
+        text-align:center;
+    }
+    #community .image{
+        padding-bottom: 15px;
+    
+    }
+    #downloads .btn-success{
+        margin-bottom: 15px;
+    }
+    #footer {
+        text-align: center;
+        
+    }
+    #footer img{
+        margin: 0 auto;
+    }   
+}
+
+/*slider styling */
+#slider{
+    background-image: url(../images/carousel.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.item {
+    color: white;
+    padding: 200px 0px ;
+}
+.item h1{
+    font-size: 2.8em;
+}
+.carousel-indicators li{
+    background-color: white;
+    margin: 5px;
+}
+.carousel-indicators .active{
+    background-color: #16a085; 
+    border: 1px solid #16a085;
+    margin: 5px;
+}
+.btn-success{
+    background-color: #16a085;
+    border-radius: 0px ;
+    border-color: #16a085;
+    height: 40px ;
+    width: 110px;
+    font-size: 0.8em; 
+}
+.btn-success:hover {
+    background-color: #0e6655;
+}
+.btn-success:focus, .btn-success:active:focus{
+    background-color: #16a085;
+}
+/*comments section*/
+
+#photo{
+    background-color: #f5f6f7;
+    padding: 80px 0 80px;
+    text-align: center;
+}
+#photo h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #16a085;
+}
+#photo .fa {
+    color: #16a085;
+}
+#photo .fa:hover {
+    color: #0e6655;
+}    
+
+
+/*design styling*/
+
+
+
+#design{
+    padding: 80px 0 80px;
+}
+#design h1{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #16a085;  
+    padding-top: 30px;
+    
+}    
+/*community styling*/
+#community{
+    background-color: #f5f6f7;
+    padding: 80px 0 80px;
+}
+#community h1{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #16a085; 
+}    
+
+/*sign up section*/
+#sign-up{
+    background: url(../images/5.jpg);
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    background-size: cover;
+    padding: 300px 0 300px;
+}
+#sign-up h1{
+    color: white;
+    text-align: center;
+}
+#sign-up .btn-default{
+    background-color: #16a085;
+    border-color: #16a085;
+    border-radius: 0px;
+}
+#sign-up .btn-default:hover {
+    background-color: #0e6655;
+    border-color: #0e6655;
+}
+#sign-up .fa{
+    color: white;
+}
+#sign-up .form-control{
+    border: 1px solid #0e6655;
+    border-radius: 0px;
+}
+#sign-up .form-control:focus {
+    border: 1px solid #0e6655;
+}
+
+/*styling the downloads section*/
+#downloads{
+    text-align: center;
+    padding: 80px 0 80px;
+    background-color: #f5f6f7;
+}
+#downloads .btn-success{
+    height: 60px;
+    width: 180px;
+    margin-right: 15px;
+    font-size: 1em;
+    margin-top: 15px;
+}
+#downloads h1{
+    color: #16a085; 
+}
+
+/*styling of the footer*/
+#footer {
+    padding: 50px 0 50px;
+}
+#footer p{
+    font-weight: 700;
+    
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+    
+}
+#footer a:hover {
+    text-decoration: none;
+    color: #16a085;
+    
+}
+
+
+
+
+
